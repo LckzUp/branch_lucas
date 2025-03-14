@@ -1,0 +1,71 @@
+Comandos usados para realizar a atividade do dia 14/03/2025
+
+-Utulizados comandos cd (branch_lucas) para entrar nas pastas 
+-Ao entrar na pasta usamos:
+    git init
+
+    git remote add origin https://github.com/LckzUp/branch_lucas.git
+
+    git branch -m main
+
+    git status
+
+    git add .
+
+    git status
+
+    git commit -m "Criação arquivos"
+
+    git log
+
+    git push -u origin main (para colocar token)
+------------------------------------------------------------------------
+            CRIAÇÃO DENTRO index
+    
+git branch "criacao_index"
+
+git checkout criacao_index
+
+*Colocar os codigos dentro da index*
+
+git status
+
+git add .
+
+git status
+
+git commit -m "Criacão estrutura index basico"
+
+git log
+
+git checkout main
+
+git merge criacao_index
+
+git push
+------------------------------------------------------------------------
+            CRIAÇÃO DENTRO comandostxt
+
+git branch "criacao_comandos_txt"
+
+git checkout criacao_comandos_txt
+
+*Colocar os codigos dentro da arquivo txt*
+
+git status
+
+git add .
+
+git status
+
+git commit -m "Criacão estrutura comandos no txt"
+
+git log
+
+git checkout main
+
+git merge criacao_comandos_txt
+
+git push
+
+(teste)
